@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de privacidad · Rumbo</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+<main>
+  <header><div class="logo">📈</div><strong>Rumbo</strong></header>
+  <h1>Política de privacidad</h1>
+  <p class="fecha">Vigente desde el 16 de noviembre de 2026</p>
+
+  <div class="resumen">
+    <p><strong>En pocas palabras:</strong></p>
+    <ul>
+      <li>Tu presupuesto, gastos, deudas y metas se guardan <strong>cifrados solo en tu teléfono</strong>. No los vemos ni los enviamos a ningún servidor.</li>
+      <li>Si creas una cuenta (es opcional), guardamos tu <strong>correo y nombre</strong> para identificarte.</li>
+      <li><strong>Nunca</strong> te pedimos claves ni datos de tu banco, no mostramos anuncios y no usamos herramientas de rastreo ni analítica.</li>
+      <li>Los pagos de Premium los procesa Google Play o App Store: <strong>no vemos los datos de tu tarjeta</strong>.</li>
+      <li>Puedes <a href="eliminar-cuenta.html">eliminar tu cuenta</a> cuando quieras.</li>
+    </ul>
+  </div>
+
+  <h2>1. Quién es el responsable</h2>
+  <p>
+    El responsable del tratamiento de tus datos personales es <strong>{{David Galeano}}</strong>, persona natural
+    domiciliada en {{Bogotá}}, Colombia, creador de la aplicación Rumbo. Contacto:
+    <a href="mailto:{{davidgaleano2611@gmail.com}}">{{davidgaleano2611@gmail.com}}</a>.
+  </p>
+  <p>
+    Esta política cumple la Ley 1581 de 2012 y el Decreto 1377 de 2013 de Colombia (protección de datos personales,
+    también llamada "Habeas Data").
+  </p>
+
+  <h2>2. Lo que NO recogemos</h2>
+  <ul>
+    <li>Claves, usuarios o datos de acceso a tus bancos o tarjetas.</li>
+    <li>Tu ubicación, tus contactos, tus fotos ni tus mensajes.</li>
+    <li>Datos de uso para publicidad. Rumbo no tiene anuncios ni rastreadores, y no vende datos.</li>
+    <li>Tu huella o tu rostro: el desbloqueo con Face ID o huella lo hace tu teléfono; Rumbo solo recibe un "sí" o "no".</li>
+  </ul>
+
+  <h2>3. Tus datos financieros: solo en tu teléfono</h2>
+  <p>
+    Tu ingreso, presupuesto, gastos, ingresos extra, deudas, metas de ahorro e historial se guardan <strong>cifrados</strong>
+    (XChaCha20-Poly1305) en tu teléfono. La llave de cifrado vive en el almacén seguro del sistema (Keychain en iPhone,
+    Keystore en Android). <strong>No se envían a ningún servidor</strong>, ni siquiera si creas una cuenta.
+  </p>
+  <p>
+    Por eso, si desinstalas la app o usas "Borrar todos mis datos" en Ajustes, esa información se borra y no podemos
+    recuperarla.
+  </p>
+
+  <h2>4. Si creas una cuenta (opcional)</h2>
+  <p>Puedes usar Rumbo sin cuenta. Si decides crear una, tratamos:</p>
+  <ul>
+    <li><strong>Correo electrónico y nombre</strong> (el que escribes o el que te da Google o Apple al entrar con ellos).</li>
+    <li><strong>Contraseña</strong>, guardada de forma protegida (cifrada con un algoritmo de un solo sentido): nadie puede leerla, ni nosotros.</li>
+    <li><strong>Identificador de tu cuenta</strong> y datos técnicos de la sesión (fecha de registro y de último acceso).</li>
+  </ul>
+  <p>
+    <strong>Para qué:</strong> identificarte, permitirte recuperar el acceso, enviarte los correos necesarios de la cuenta
+    (confirmación y recuperación de contraseña) y conservar tu suscripción Premium si cambias de teléfono.
+  </p>
+  <p>
+    Estos datos los guarda nuestro proveedor <strong>Supabase</strong>. Si entras con Google o Apple, ellos te piden
+    autorización y nos envían tu nombre y correo; tu contraseña de Google o Apple nunca llega a Rumbo.
+  </p>
+
+  <h2>5. Suscripción Premium</h2>
+  <p>
+    Si te suscribes, el pago lo procesa <strong>Google Play</strong> o <strong>App Store</strong> con su propia política
+    de privacidad. Nosotros <strong>no recibimos los datos de tu tarjeta</strong>.
+  </p>
+  <p>
+    Para saber si tienes Premium usamos <strong>RevenueCat</strong>, que recibe un identificador de usuario (anónimo, o
+    el de tu cuenta si iniciaste sesión), los productos que compraste y el estado de tu suscripción (activa, en prueba,
+    cancelada, fecha de renovación).
+  </p>
+
+  <h2>6. Notificaciones</h2>
+  <p>
+    Los recordatorios de pago y el aviso de "¡Llegó tu pago!" los programa tu propio teléfono. Solo se activan si tú
+    das permiso, y <strong>nunca muestran montos</strong>, porque pueden verse en la pantalla bloqueada.
+  </p>
+
+  <h2>7. Con quién compartimos datos</h2>
+  <p>Solo con los proveedores necesarios para que la app funcione, que actúan por nuestra cuenta:</p>
+  <ul>
+    <li><strong>Supabase</strong>: cuentas de usuario.</li>
+    <li><strong>RevenueCat</strong>: estado de la suscripción.</li>
+    <li><strong>Google y Apple</strong>: si entras con su cuenta o compras a través de su tienda.</li>
+  </ul>
+  <p>
+    Estos proveedores pueden tener servidores fuera de Colombia (por ejemplo, en Estados Unidos o Brasil). Al usar estas
+    funciones autorizas esa transferencia, que se hace con proveedores que ofrecen niveles adecuados de protección.
+    No vendemos ni alquilamos tus datos a nadie.
+  </p>
+
+  <h2>8. Cuánto tiempo los guardamos</h2>
+  <ul>
+    <li><strong>Datos de la cuenta:</strong> mientras tu cuenta exista. Si la eliminas, se borran de inmediato de la base de datos; las copias de seguridad automáticas del proveedor se eliminan en sus ciclos normales (pocos días).</li>
+    <li><strong>Registros de compras:</strong> RevenueCat, Google y Apple pueden conservar el historial de transacciones el tiempo que exijan las leyes contables y tributarias.</li>
+    <li><strong>Datos financieros:</strong> solo en tu teléfono, hasta que los borres o desinstales la app.</li>
+  </ul>
+
+  <h2>9. Tus derechos</h2>
+  <p>Como titular de tus datos puedes, en cualquier momento y de forma gratuita:</p>
+  <ul>
+    <li>Conocer, actualizar y rectificar tus datos personales.</li>
+    <li>Pedir prueba de la autorización que nos diste, o revocarla.</li>
+    <li>Pedir que eliminemos tus datos (puedes hacerlo tú mismo: <a href="eliminar-cuenta.html">eliminar tu cuenta</a>).</li>
+    <li>Saber qué uso le hemos dado a tus datos.</li>
+    <li>Presentar quejas ante la Superintendencia de Industria y Comercio (SIC).</li>
+  </ul>
+  <p>
+    Escríbenos a <a href="mailto:{{CORREO_CONTACTO}}">{{CORREO_CONTACTO}}</a>. Respondemos las consultas en máximo
+    10 días hábiles y los reclamos en máximo 15 días hábiles, como indica la ley.
+  </p>
+
+  <h2>10. Seguridad</h2>
+  <p>
+    Tus datos financieros se cifran en el teléfono y puedes proteger la app con Face ID o huella. Las comunicaciones con
+    nuestros proveedores van cifradas (HTTPS). Ningún sistema es 100 % infalible, pero diseñamos Rumbo para guardar lo
+    mínimo posible.
+  </p>
+
+  <h2>11. Menores de edad</h2>
+  <p>Rumbo está dirigida a personas mayores de 18 años. No recogemos a sabiendas datos de menores de edad.</p>
+
+  <h2>12. Cambios a esta política</h2>
+  <p>
+    Si cambiamos algo importante (por ejemplo, si algún día ofrecemos respaldo de tus datos en la nube), actualizaremos
+    esta página y te avisaremos dentro de la app antes de que aplique.
+  </p>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="terminos.html">Términos y condiciones</a>
+    <a href="eliminar-cuenta.html">Eliminar mi cuenta</a>
+  </nav>
+</main>
+</body>
+</html>
