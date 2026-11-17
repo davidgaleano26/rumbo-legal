@@ -37,7 +37,7 @@
   <h2>2. Lo que NO recogemos</h2>
   <ul>
     <li>Claves, usuarios o datos de acceso a tus bancos o tarjetas.</li>
-    <li>Tus contactos, tus fotos ni tus mensajes.</li>
+    <li>Tus contactos, tus fotos ni tus mensajes (Rumbo no lee tus SMS; ver la sección 3 sobre los avisos de tu banco).</li>
     <li>Tu ubicación en segundo plano: Rumbo nunca rastrea dónde estás (ver la sección 3 sobre la ubicación opcional de los gastos).</li>
     <li>Datos de uso para publicidad. Rumbo no tiene anuncios ni rastreadores, y no vende datos.</li>
     <li>Tu huella o tu rostro: el desbloqueo con Face ID o huella lo hace tu teléfono; Rumbo solo recibe un "sí" o "no".</li>
@@ -54,7 +54,33 @@
     recuperarla.
   </p>
 
-  <h3>Ubicación de los gastos (opcional, apagada por defecto)</h3>
+  <h3>Avisos de tu banco (opcional, apagado por defecto)</h3>
+  <p>
+    Rumbo puede ayudarte a registrar tus movimientos a partir de los avisos que te envía tu banco, de dos formas:
+  </p>
+  <ul>
+    <li>
+      <strong>"Pegar aviso del banco":</strong> tú copias un mensaje de tu banco y lo pegas en Rumbo. Rumbo lee
+      <strong>solo el texto que pegas</strong>, extrae el monto, la fecha, la hora y el comercio o la persona, y
+      <strong>descarta el texto</strong>. Rumbo <strong>no lee tus mensajes SMS</strong>.
+    </li>
+    <li>
+      <strong>Detección automática (solo Android):</strong> si la activas en Ajustes y le das a Rumbo el
+      "acceso a notificaciones" en los ajustes de tu teléfono, Rumbo lee los avisos de las <strong>apps de bancos de una
+      lista cerrada</strong> (hoy, Nequi). Los avisos de <strong>cualquier otra app</strong> (mensajes, redes, correo) se
+      ignoran sin guardarse. De cada aviso bancario se guarda solo el tipo de movimiento, el monto, el comercio o la persona,
+      la fecha y la hora; <strong>el texto completo se descarta</strong> y nunca se guardan números de cuenta, tarjetas ni
+      llaves.
+    </li>
+  </ul>
+  <p>
+    Todo esto ocurre <strong>dentro de tu teléfono</strong>, se guarda cifrado con tus demás datos y <strong>no se envía a
+    ningún servidor</strong>. Tú confirmas cada movimiento; con Premium, los comercios que ya clasificaste pueden registrarse
+    solos y tú los revisas o deshaces. Puedes apagar la detección cuando quieras en Ajustes y quitar el acceso a
+    notificaciones desde los ajustes de tu teléfono.
+  </p>
+
+  <h3>Ubicación de los gastos (opcional, apagada por defecto, Premium)</h3>
   <p>
     Si activas <strong>"Guardar dónde registro mis gastos"</strong> en Ajustes, al registrar un gasto Rumbo anota las
     coordenadas de dónde estás en ese momento (solo mientras usas la app, nunca en segundo plano). Se guardan
@@ -96,8 +122,9 @@
 
   <h2>6. Notificaciones</h2>
   <p>
-    Los recordatorios de pago y el aviso de "¡Llegó tu pago!" los programa tu propio teléfono. Solo se activan si tú
-    das permiso, y <strong>nunca muestran montos</strong>, porque pueden verse en la pantalla bloqueada.
+    Los recordatorios de pago, el aviso de "¡Llegó tu pago!" y el aviso de "Rumbo detectó un movimiento" los genera tu
+    propio teléfono. Solo se activan si tú das permiso, y <strong>nunca muestran montos</strong>, porque pueden verse en
+    la pantalla bloqueada.
   </p>
 
   <h2>7. Con quién compartimos datos</h2>
